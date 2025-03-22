@@ -1,0 +1,86 @@
+2025-03-22 16:20:22 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 16:20:22 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 16:20:22 - INFO -  * Restarting with stat
+2025-03-22 16:20:22 - WARNING -  * Debugger is active!
+2025-03-22 16:20:22 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:20:26 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:26] "OPTIONS /login HTTP/1.1" 200 -
+2025-03-22 16:20:27 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:27] "POST /login HTTP/1.1" 200 -
+2025-03-22 16:20:29 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:29] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:20:29 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:29] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:20:29 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:29] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:20:29 - INFO - Cache used for key: view//visitors
+2025-03-22 16:20:29 - INFO - 127.0.0.1 - - [22/Mar/2025 16:20:29] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:02 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:21:02 - INFO -  * Restarting with stat
+2025-03-22 16:21:02 - WARNING -  * Debugger is active!
+2025-03-22 16:21:02 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:21:12 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:12] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:12 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:12] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:12 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:12] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:12 - INFO - Cache used for key: view//visitors
+2025-03-22 16:21:12 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:12] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:50 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:50] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:50 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:50] "[35m[1mPOST /visitors HTTP/1.1[0m" 201 -
+2025-03-22 16:21:52 - INFO - Cache used for key: view//visitors
+2025-03-22 16:21:52 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:52] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:57 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:57] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:57 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:57] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:57 - INFO - Cache used for key: view//visitors
+2025-03-22 16:21:57 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:57] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:21:57 - INFO - Cache used for key: view//visitors
+2025-03-22 16:21:57 - INFO - 127.0.0.1 - - [22/Mar/2025 16:21:57] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:17 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:22:17 - INFO -  * Restarting with stat
+2025-03-22 16:22:17 - WARNING -  * Debugger is active!
+2025-03-22 16:22:17 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:22:19 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:22:19 - INFO -  * Restarting with stat
+2025-03-22 16:22:20 - WARNING -  * Debugger is active!
+2025-03-22 16:22:20 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:22:21 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:22:21 - INFO -  * Restarting with stat
+2025-03-22 16:22:21 - WARNING -  * Debugger is active!
+2025-03-22 16:22:21 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:22:27 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:27] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:27 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:27] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:27 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:27] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:27 - INFO - Cache used for key: view//visitors
+2025-03-22 16:22:27 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:27] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:37 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:37] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:38 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:38] "[35m[1mPOST /visitors HTTP/1.1[0m" 500 -
+2025-03-22 16:22:40 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:40] "[35m[1mPOST /visitors HTTP/1.1[0m" 500 -
+2025-03-22 16:22:47 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:47] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:47 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:47] "[35m[1mPOST /visitors HTTP/1.1[0m" 500 -
+2025-03-22 16:22:52 - INFO - Cache used for key: view//visitors
+2025-03-22 16:22:52 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:52] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:22:52 - INFO - Cache used for key: view//visitors
+2025-03-22 16:22:52 - INFO - 127.0.0.1 - - [22/Mar/2025 16:22:52] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:23:23 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:23:24 - INFO -  * Restarting with stat
+2025-03-22 16:23:24 - WARNING -  * Debugger is active!
+2025-03-22 16:23:24 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:23:25 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:23:25 - INFO -  * Restarting with stat
+2025-03-22 16:23:26 - WARNING -  * Debugger is active!
+2025-03-22 16:23:26 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:23:41 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-22 16:23:41 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 16:23:41 - INFO -  * Restarting with stat
+2025-03-22 16:23:41 - WARNING -  * Debugger is active!
+2025-03-22 16:23:41 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:23:46 - INFO - 127.0.0.1 - - [22/Mar/2025 16:23:46] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:23:46 - INFO - 127.0.0.1 - - [22/Mar/2025 16:23:46] "OPTIONS /visitors HTTP/1.1" 200 -
+2025-03-22 16:23:46 - INFO - 127.0.0.1 - - [22/Mar/2025 16:23:46] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:23:46 - INFO - Cache used for key: view//visitors
+2025-03-22 16:23:46 - INFO - 127.0.0.1 - - [22/Mar/2025 16:23:46] "GET /visitors HTTP/1.1" 200 -
+2025-03-22 16:23:58 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:23:58 - INFO -  * Restarting with stat
+2025-03-22 16:24:01 - INFO -  * Restarting with stat
+2025-03-22 16:27:19 - INFO -  * Restarting with stat
+2025-03-22 16:27:33 - INFO -  * Restarting with stat
+2025-03-22 16:27:33 - WARNING -  * Debugger is active!
+2025-03-22 16:27:33 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 16:27:38 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 16:27:38 - INFO -  * Restarting with stat

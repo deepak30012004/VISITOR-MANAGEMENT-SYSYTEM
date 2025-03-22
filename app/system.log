@@ -1,0 +1,20 @@
+2025-03-22 15:14:21,144 - WARNING -  * Debugger is active!
+2025-03-22 15:14:21,154 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 15:14:33,620 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 15:14:34,746 - WARNING -  * Debugger is active!
+2025-03-22 15:14:34,752 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 15:15:18,695 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:18] "OPTIONS /login HTTP/1.1" 200 -
+2025-03-22 15:15:18,959 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:18] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-03-22 15:15:30,089 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:30] "OPTIONS /signup HTTP/1.1" 200 -
+2025-03-22 15:15:30,722 - ERROR - Database error in save_to_db: no such table: users
+2025-03-22 15:15:30,723 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:30] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2025-03-22 15:15:34,015 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:34] "OPTIONS /login HTTP/1.1" 200 -
+2025-03-22 15:15:34,335 - ERROR - Database error in get_user_by_username: no such table: users
+2025-03-22 15:15:34,336 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:34] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-03-22 15:15:39,901 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:39] "OPTIONS /login HTTP/1.1" 200 -
+2025-03-22 15:15:40,224 - ERROR - Database error in get_user_by_username: no such table: users
+2025-03-22 15:15:40,225 - INFO - 127.0.0.1 - - [22/Mar/2025 15:15:40] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-03-22 15:15:48,793 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
+2025-03-22 15:15:49,810 - WARNING -  * Debugger is active!
+2025-03-22 15:15:49,816 - INFO -  * Debugger PIN: 130-534-850
+2025-03-22 15:15:50,923 - INFO -  * Detected change in 'C:\\Users\\deepa\\Documents\\visitor_management_system\\visitor_management_system\\app\\aap.py', reloading
