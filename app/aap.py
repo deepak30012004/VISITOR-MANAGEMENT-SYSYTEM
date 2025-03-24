@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify, send_from_directory
 import sqlite3
 import os
 import base64
-import time
 from datetime import timedelta
 from flask_cors import CORS
 from flask_jwt_extended import (
@@ -31,12 +30,11 @@ DB_FILE = "visitor.db"
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-
 # # System Failure Handling: Database Connection with Fault Tolerance
 # def get_db_connection(retries=3, delay=2):
 #     """
 #     Establish a database connection with fault tolerance.
-#     Retries up to `retries` times with a `delay` between attempts.
+#     Retries up to retries times with a delay between attempts.
 #     """
 #     for attempt in range(retries):
 #         try:
@@ -46,7 +44,6 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 #             logging.error(f"Database connection failed (Attempt {attempt+1}): {e}")
 #             time.sleep(delay)  # Wait before retrying
 #     raise ConnectionError("Failed to connect to the database after multiple attempts.")
-
 # Initialize Database and Ensure 'role' Column Exists
 def init_db():
     conn = sqlite3.connect(DB_FILE)
@@ -160,10 +157,6 @@ class Visitor:
 def home():
     return "Visitor Management System API is running!"
 
-
-
-
-#SIGNUP ATHENTICATION
 @app.route('/signup', methods=['POST'])
 def signup():
     try:
@@ -184,6 +177,8 @@ def signup():
         app.logger.error(f"Error during signup: {e}")
         return jsonify({"error": "An error occurred during signup"}), 500
 
+
+##LOGIN AUTHENTICATION
 @app.route('/login', methods=['POST'])
 def login():
     data = request.json
@@ -198,12 +193,11 @@ def login():
         return jsonify({"error": "Invalid credentials"}), 401
 
 @app.route('/visitors', methods=['POST'])
-###    AUTHENTICATION : WITHOUT AUTHENTICATION VISITOR CAN ADD
 @jwt_required()
 def add_visitor():
     current_user = get_jwt_identity()
     user = User.get_user_by_username(current_user)
-    cache.delete('visitor')
+
     if user.role != 'staff':
         return jsonify({"error": "You do not have permission to add visitors"}), 403
 
@@ -233,12 +227,10 @@ def add_visitor():
     return jsonify({"message": "Visitor added successfully", "id": visitor_id}), 201
 
 
-# AUTHENTICATION REQUIRED FOR GETTING VISITORS
-# CACHING :
-
+##AUTHENTICATION REQUIRE FOR FETTING VISITOR
 @app.route('/visitors', methods=['GET'])
-@jwt_required()   
-@cache.cached(timeout=300)    #  caching here 
+@jwt_required()
+ # Cache for 60 seconds
 def get_visitors():
     current_user = get_jwt_identity()
     user = User.get_user_by_username(current_user)
@@ -253,8 +245,10 @@ def get_visitors():
     ]
     return jsonify(visitor_list), 200
 
+
+##AUTHENTICATION REQUIRED FOR APPROVAL
 @app.route('/visitors/approve/<int:visitor_id>', methods=['PUT'])
-@jwt_required()  
+@jwt_required()
 def approve_visitor(visitor_id):
     current_user = get_jwt_identity()
     user = User.get_user_by_username(current_user)
